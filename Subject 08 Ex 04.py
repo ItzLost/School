@@ -33,6 +33,7 @@ beurre: {self.qt_beurre}""")
         return res
     
 stock = Stock()
+
 stock.ajouter_beurre(1000)
 stock.ajouter_farine(1000)
 stock.ajouter_oeuf(10)

@@ -23,7 +23,7 @@ beurre: {self.qt_beurre}""")
         if self.qt_beurre >= 175 and self.nb_oeufs >= 4 and self.qt_farine >= 350:
             return True
         
-    def produire(self) -> None:
+    def produire(self) -> int:
         res = 0
         while self.stock_suffisant_brioche():
             self.qt_beurre -= 175

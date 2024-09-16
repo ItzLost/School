@@ -20,8 +20,7 @@ oeufs: {self.nb_oeufs}
 beurre: {self.qt_beurre}""")
         
     def stock_suffisant_brioche(self) -> bool:
-        if self.qt_beurre >= 175 and self.nb_oeufs >= 4 and self.qt_farine >= 350:
-            return True
+        return self.qt_beurre >= 175 and self.nb_oeufs >= 4 and self.qt_farine >= 350
         
     def produire(self) -> int:
         res = 0

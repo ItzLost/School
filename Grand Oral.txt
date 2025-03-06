@@ -1,0 +1,19 @@
+Problématique: La fonction "lecture aléatoire" sur spotify est-elle vraiment aléatoire ?
+
+1. https://medium.com/immensity/how-spotifys-shuffle-algorithm-works-19e963e75171
+2. https://keyj.emphy.de/balanced-shuffle/
+
+1.1:
+
+  1.“Truly random does not feel random”
+    According to Mattias Petter Johansson, a former Software Spotify Engineer between 2012 and 2017, the algorithm used to work perfectly random years ago thanks to a Fisher-Yates algorithm which made the mix completely unexpected.
+
+  2. https://miro.medium.com/v2/resize:fit:700/1*HysdYvlaXL9Evf4Plz8MVA.png
+    When thinking about a random algorithm, we would probably predict that the system is going to make more patterns like the first line rather than the second. However, in a Fish-Yates shuffle they both are equally to appear, as the second line pattern is also a possibility.
+    When this second lines appeared, they created confusion among Spotify user’s, who felt that finding songs of the same artist in a row wasn’t being random at all.
+
+  3. Humans are not pretty good at estimating probabilities:
+    If a coin flips heads three times or more, we tend to think that the probabilities of tails rise. But we are wrong. Throwing it once, or a million times, is not going to change the probability of each face: always 50%.
+    Spotify listeners fall in the same illusion.
+    When you hear a song of a specific artist, it doesn’t mean that the next song is likely to be from another artist. All songs have the same probability, regardless of what has been played before.
+    For these two reasons, Spotify decided to renew its system.

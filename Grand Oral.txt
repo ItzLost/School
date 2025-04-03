@@ -3,6 +3,8 @@ Problématique: La fonction "lecture aléatoire" sur spotify est-elle vraiment a
 1. https://medium.com/immensity/how-spotifys-shuffle-algorithm-works-19e963e75171
 2. https://keyj.emphy.de/balanced-shuffle/
 
+One ne peut pas vraimnt créer de "vrai" aléatoire sur un ordi
+
 1.1:
 
   1.“Truly random does not feel random”

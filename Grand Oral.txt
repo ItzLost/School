@@ -3,9 +3,9 @@ Problématique: La fonction "lecture aléatoire" sur spotify est-elle vraiment a
 1. https://medium.com/immensity/how-spotifys-shuffle-algorithm-works-19e963e75171
 2. https://keyj.emphy.de/balanced-shuffle/
 
-One ne peut pas vraimnt créer de "vrai" aléatoire sur un ordi
+On ne peut pas vraiment créer de "vrai" aléatoire sur un ordi
 
-1.1:
+1:
 
   1.“Truly random does not feel random”
     According to Mattias Petter Johansson, a former Software Spotify Engineer between 2012 and 2017, the algorithm used to work perfectly random years ago thanks to a Fisher-Yates algorithm which made the mix completely unexpected.
@@ -19,3 +19,14 @@ One ne peut pas vraimnt créer de "vrai" aléatoire sur un ordi
     Spotify listeners fall in the same illusion.
     When you hear a song of a specific artist, it doesn’t mean that the next song is likely to be from another artist. All songs have the same probability, regardless of what has been played before.
     For these two reasons, Spotify decided to renew its system.
+    
+  4. If we have 4 songs from the blue singer, they should appear approximately every 25% of the length of the playlist. However, as you can see, the blue circles are slightly moved in order to make more of an irregular division.
+    In the beginning, there is a random balance that is introduced to avoid all first songs to end up at position 0. For this reason, the black and pink singers are places in the beginning to improve the sense of randomness.
+
+
+
+2:
+  1.
+
+
+
